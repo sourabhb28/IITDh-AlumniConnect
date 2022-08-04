@@ -12,4 +12,6 @@
   "dependencies": {
     "express": "^4.18.1",
     "inspirational-quotes": "^2.0.1",
-    "
+    "mongoose": "^6.5.1"
+  }
+}
