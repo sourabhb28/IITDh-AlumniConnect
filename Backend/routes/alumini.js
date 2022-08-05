@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.post("/", (req, res) => {
   const alumini = new Alumini({
-    from: req.body.from,
+    profilepic: req.body.profilepic,
     to: req.body.to,
     fromName: req.body.fromName,
     time: req.body.time,
