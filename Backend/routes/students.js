@@ -6,14 +6,11 @@ const router = express.Router();
 
 router.post("/", (req, res) => {
   const students = new Students({
-    from: req.body.from,
-    to: req.body.to,
-    profilepic:{type:urlencoded},
-    fromName: req.body.fromName,
-    time: req.body.time,
-    acceptStatus: req.body.acceptStatus,
-    startStatus: req.body.startStatus,
-    appointmentType: req.body.appointmentType,
+    userId: req.body.userId,
+    
+    
+    studentName: req.body.Name,
+    
   });
 
   students
@@ -29,7 +26,7 @@ router.post("/", (req, res) => {
 
 // /api/Students
 router.get("/", (req, res) => {
-    students.find()
+    Students.find()
     .then((Students) => {
       res.send(Students);
     })

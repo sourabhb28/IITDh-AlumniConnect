@@ -1,13 +1,13 @@
 const mongoose = require('mongoose')
 
 const AppointmentSchema = new mongoose.Schema({
-    userId: {type: mongoose.SchemaTypes.ObjectId, required: true },
-    studentName: {type: String, required: true},
-   graducation: {type: String, required: true },
-   batch: {type: string,required: true},
-  branch:{type:string,required: true},
-    linkedIn: {type:urlencoded, required: true},
-  gmail: {type:urlencoded, required: true},
+    userId: {type: mongoose.SchemaTypes.ObjectId },
+    studentName: {type: String},
+   graducation: {type: String },
+   batch: {type: String},
+  branch:{type:String},
+    linkedIn: {type:String },
+  gmail: {type:String },
   contactno: {type:Array},
 });
 
