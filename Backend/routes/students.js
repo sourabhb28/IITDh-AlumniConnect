@@ -7,7 +7,7 @@ const router = express.Router();
 router.post("/", (req, res) => {
   const students = new Students({
     userId: req.body.userId,
-    
+    batch:req.body.batch,
     
     studentName: req.body.Name,
     
