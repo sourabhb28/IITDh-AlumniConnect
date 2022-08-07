@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const AppointmentSchema = new mongoose.Schema({
     userId: {type: mongoose.SchemaTypes.ObjectId },
     studentName: {type: String},
-   graducation: {type: String },
+    education: {type: String },
    batch: {type: String},
   branch:{type:String},
     linkedIn: {type:String },

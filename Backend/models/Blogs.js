@@ -4,7 +4,7 @@ const BlogsSchema = new mongoose.Schema({
   userId: { type: mongoose.SchemaTypes.ObjectId, required: true },
   profilepic: { type: String },
   BlogsName: { type: String, required: true },
-  graducation: { type: String, required: true },
+  education: { type: String, required: true },
   batch: { type: String, required: true },
   branch: { type: String, required: true },
   company: { type: Array, required: true },
