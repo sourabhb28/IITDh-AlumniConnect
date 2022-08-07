@@ -1,14 +1,14 @@
 const mongoose = require('mongoose')
 
 const AppointmentSchema = new mongoose.Schema({
-    userId: {type: mongoose.SchemaTypes.ObjectId },
-    studentName: {type: String},
-    education: {type: String },
-   batch: {type: String},
+  userId: {type: mongoose.SchemaTypes.ObjectId },
+  studentName: {type: String},
+  education: {type: String },
+  batch: {type: String},
   branch:{type:String},
-    linkedIn: {type:String },
-  gmail: {type:String },
-  contactno: {type:Array},
+  linkedIn: {type:String },
+  gmail_id: {type:String },
+  contact_no: {type:Array},
 });
 
 module.exports = mongoose.model('Appointment', AppointmentSchema);

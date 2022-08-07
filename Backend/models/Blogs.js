@@ -10,9 +10,9 @@ const BlogsSchema = new mongoose.Schema({
   company: { type: Array, required: true },
   internship: { type: Array },
   linkedIn: { type:String, required: true },
-  gmail: { type: String, required: true },
+  gmail_id: { type: String, required: true },
   status: { type: Boolean },
-  contactno: { type: Array },
+  contact_no: { type: Array },
   description:{type:String,required: true},
   resume:{type:String},
   skills:{type:Array}
