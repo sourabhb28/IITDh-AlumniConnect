@@ -8,8 +8,12 @@ router.post("/", (req, res) => {
   const students = new Students({
     userId: req.body.userId,
     batch:req.body.batch,
-    
+    education:req.body.education,
+    branch:req.body.branch,
+    linkedIn:req.body.linkedIn,
+    gmail_id:req.body.gmail_id,
     studentName: req.body.Name,
+    contact_no: req.body.contact_no,
     
   });
 
