@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const AppointmentSchema = new mongoose.Schema({
+const StudentSchema = new mongoose.Schema({
   userId: {type: mongoose.SchemaTypes.ObjectId },
   studentName: {type: String},
   education: {type: String },
@@ -11,4 +11,4 @@ const AppointmentSchema = new mongoose.Schema({
   contact_no: {type:Array},
 });
 
-module.exports = mongoose.model('Appointment', AppointmentSchema);
+module.exports = mongoose.model('Student', StudentSchema);
