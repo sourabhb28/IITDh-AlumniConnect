@@ -1,19 +1,19 @@
 const mongoose = require("mongoose");
 
 const AluminiSchema = new mongoose.Schema({
-  userId: { type: mongoose.SchemaTypes.ObjectId, required: true },
+  userId: { type: mongoose.SchemaTypes.ObjectId,  },
   profilepic: { type: String },
-  aluminiName: { type: String, required: true },
-  graducation: { type: String, required: true },
-  batch: { type: String, required: true },
-  branch: { type: String, required: true },
-  company: { type: Array, required: true },
+  aluminiName: { type: String,  },
+  education: { type: String,  },
+  batch: { type: String,  },
+  branch: { type: String,  },
+  company: { type: Array,  },
   internship: { type: Array },
-  linkedIn: { type:String, required: true },
-  gmail: { type: String, required: true },
+  linkedIn: { type:String,  },
+  gmail_id: { type: String,  },
   status: { type: Boolean },
-  contactno: { type: Array },
-  description:{type:String,required: true},
+  contact_no: { type: Array },
+  description:{type:String,},
   resume:{type:String},
   skills:{type:Array}
 });
