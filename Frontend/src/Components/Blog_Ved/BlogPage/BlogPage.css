@@ -1,0 +1,24 @@
+.blog-page-main{
+    max-width: 70%;
+    margin:0 auto;
+}
+
+.blog-grid{
+    margin:0 auto;
+}
+
+.blog-single{
+    transition: 0.3s;
+}
+
+.btn-container{
+    padding:20px 40px;
+}
+@media only screen and (max-width: 600px){
+
+    .blog-page-main{
+    max-width: 60%;
+    margin:0 10%;
+    }
+
+}
