@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -22,6 +23,21 @@ function App() {
 
 </BrowserRouter>
   )
+=======
+import './App.css';
+// import Navbar1 from './Components/Navbar1';
+import Navbar2 from './Components/Navbar2';
+import Radio from './Components/Radio';
+
+function App() {
+  return (
+    <>
+      {/* <Navbar1/> */}
+      <Navbar2/>
+      <Radio/>
+    </>
+  );
+>>>>>>> f08736feaa7d8f5a4dffc22aa93a8e8ace348652
 }
 
 export default App;
